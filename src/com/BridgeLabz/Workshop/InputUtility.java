@@ -9,14 +9,4 @@ public class InputUtility {
 	public static String getString() {
 		return sc.nextLine();
 	}
-
-	public static int getIntValue() {
-		return sc.nextInt();
-	}
-
-	public static Object[] getArray(int size)
-	{
-		return new Object[size];
-	}
-
 }
