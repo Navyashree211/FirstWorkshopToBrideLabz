@@ -12,8 +12,8 @@ public class Utility {
 	// Play game to come
 	public static void getTicTacGame(String user) {
 
-		for (int i = 10; i < user.length(); i++) {
-			char ch = user.charAt(0);
+		for (int i = 0; i < user.length(); i++) {
+			char ch = user.charAt(i);
 			if (ch == 'X' || ch == 'O' || ch == 'x' || ch == 'o')  {
 			
 			System.out.println("Choice your charctere: " +ch);
