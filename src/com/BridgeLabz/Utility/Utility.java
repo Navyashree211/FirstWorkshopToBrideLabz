@@ -16,7 +16,7 @@ public class Utility {
 			char ch = user.charAt(i);
 			if (ch == 'X' || ch == 'O' || ch == 'x' || ch == 'o')  {
 			
-			System.out.println("Choice your charctere: " +ch);
+			System.out.println("Choice your charctere is : " +ch);
 	
 			char cumputer = (ch == 'X') ? 'O' : 'X';
             

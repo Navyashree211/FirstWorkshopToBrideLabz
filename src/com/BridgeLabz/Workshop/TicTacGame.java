@@ -7,6 +7,7 @@ public class TicTacGame {
 
 	public static void main(String[] args) {
 		System.out.println("Tic-Tac game started");
+		System.out.println("Enter your choice X or O : ");
 
 		System.out.println("user :");
 		String user = InputUtility.getString();
