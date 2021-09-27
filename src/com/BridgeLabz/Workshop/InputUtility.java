@@ -9,4 +9,11 @@ public class InputUtility {
 	public static String getString() {
 		return sc.nextLine();
 	}
+	public static int getIntValue()  {
+		return sc.nextInt();
+	}
+	public static char getChar() {
+		
+		return sc.next().charAt(0);
+	}
 }
