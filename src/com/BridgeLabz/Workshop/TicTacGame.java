@@ -10,18 +10,18 @@ public class TicTacGame {
 		System.out.println("Enter your choice X or O : ");
 
 		System.out.println("user :");
-		
+
 		char user = InputUtility.getChar();
-		//System.out.println(">"+user);
 		Utility.getTicTacGame(user);
-		
+
 		Utility.boardCase(mat);
 		System.out.println("Enter your Possion a number between [1 - 9] :  ");
 		int possion = InputUtility.getIntValue();
-		Utility.UserInput(user, possion,mat);
+		Utility.UserInput(user, possion, mat);
 
 		Utility.showBoard(mat);
-	
+		Utility.FreeSpace(mat,possion);
+
 	}
 
 }

@@ -40,9 +40,20 @@ public class Utility {
 
 	// Ability for user to make a move to a desired location in the board.
 
-	public static void UserInput(char user, int possion, char[] mat) {
+	public static void UserInput(char user, int possion, char[] mat) {  
 		System.out.println(possion);
-		mat[possion] = user;
+		
+		if (FreeSpace(mat, possion) && possion < 10 && possion > 0) {
+			mat[possion] = user;
+		}
+	}
+	// Ability to check for the free space before making the desired move
 
+	public static boolean FreeSpace(char[] mat, int possion) {  
+		if (mat[possion] == ' ') {
+			return true;
+		} else {  
+			return false;
+		}
 	}
 }

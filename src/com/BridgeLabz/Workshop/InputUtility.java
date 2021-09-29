@@ -16,4 +16,8 @@ public class InputUtility {
 		
 		return sc.next().charAt(0);
 	}
+	public static boolean getBoolean()
+	{
+		return sc.nextBoolean();
+	}
 }
